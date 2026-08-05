@@ -5,7 +5,10 @@ import { LEADERSHIP } from "@/data/portfolio";
 import { Section } from "./Section";
 
 export function BeyondTheCode() {
-  const [nss, helix] = LEADERSHIP;
+  const [nss, helix] = LEADERSHIP as [
+    (typeof LEADERSHIP)[number],
+    (typeof LEADERSHIP)[number],
+  ];
 
   return (
     <Section
