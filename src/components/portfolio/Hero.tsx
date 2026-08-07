@@ -66,8 +66,8 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.5 }}
             className="mt-8 flex flex-wrap gap-3"
           >
-            <GlowLink href={LINKS.resume} variant="primary" download>
-              <Download className="size-4" /> Download Resume
+            <GlowLink href={LINKS.resume} variant="primary">
+              <Download className="size-4" /> View Resume
             </GlowLink>
             <GlowLink href="#projects" variant="glass">
               View Projects
