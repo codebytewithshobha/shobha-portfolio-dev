@@ -107,30 +107,52 @@ export const PROJECTS = [
 
 export const EXPERIENCE = [
   {
+    period: "2023 — Present",
+    role: "Computer Science Engineering Student & Software Developer",
+    org: "RVS College of Engineering and Technology, Jamshedpur",
+    points: [
+      "B.Tech in Computer Science Engineering with hands-on work across software development, AI/ML, cloud deployment and modern web technologies.",
+      "Build real-world applications using full stack practices, scalable architectures and structured problem solving.",
+      "Practise Data Structures & Algorithms and competitive programming consistently to sharpen engineering fundamentals.",
+    ],
+  },
+  {
     period: "2024 — Present",
     role: "Full Stack Developer (Project Based)",
-    org: "Independent & Academic Projects",
+    org: "MERN Stack & Modern Web Applications",
     points: [
-      "Built end-to-end MERN applications with authentication, REST APIs and reusable component systems.",
-      "Designed responsive, accessible interfaces with React, TypeScript and Tailwind CSS.",
+      "Developed full stack applications with React, TypeScript, Tailwind CSS, Node.js, Express.js and MongoDB.",
+      "Built secure authentication, REST APIs, reusable UI components and responsive interfaces.",
+      "Created an AI-powered Course Notes Summarizer (React, Node.js, MongoDB, Gemini API) with summarization, quizzes, flashcards and tutor chat.",
     ],
   },
   {
-    period: "2024 — Present",
+    period: "2025 — Present",
     role: "AI Application Developer",
-    org: "AI Integration Work",
+    org: "Generative AI & Intelligent Systems",
     points: [
-      "Integrated Generative AI APIs (Gemini) to power summarization, quiz and recommendation features.",
-      "Engineered prompt pipelines and structured outputs for reliable product behaviour.",
+      "Integrated Google Gemini Generative AI APIs for automation, summarization, recommendations and intelligent user experiences.",
+      "Designed prompt workflows and structured AI outputs to improve reliability and application behaviour.",
+      "Developed Smart Trip Weaver, an AI travel planning platform with recommendations, weather insights, safety scoring and budget optimization.",
     ],
   },
   {
-    period: "2023 — Present",
-    role: "Web Development & Cloud Deployment",
-    org: "Hands-on Engineering Practice",
+    period: "2025 — Present",
+    role: "Cloud Deployment & DevOps Engineering Practice",
+    org: "Cloud, Containers & Software Engineering",
     points: [
-      "Containerised apps with Docker and deployed to cloud environments with CI/CD workflows.",
-      "Practised Data Structures & Algorithms consistently to strengthen problem solving.",
+      "Deployed full stack applications on Vercel and Render.",
+      "Worked with Docker, AWS fundamentals, CI/CD workflows, Git and modern deployment practices.",
+      "Applied engineering principles across API development, debugging, version control and scalable architecture.",
+    ],
+  },
+  {
+    period: "2026",
+    role: "Industrial Training — AI & Machine Learning Using Python",
+    org: "Euphoria GenX × RVS College of Engineering and Technology",
+    points: [
+      "One-month industrial training covering AI, machine learning algorithms, Python programming, data handling and model development.",
+      "Implemented AI/ML solutions and worked through real-world machine learning workflows end to end.",
     ],
   },
 ];
