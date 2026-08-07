@@ -1,13 +1,12 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Code, FileText, Braces } from "lucide-react";
+import { Github, Linkedin, FileText, Braces } from "lucide-react";
 import { LINKS } from "@/data/portfolio";
 
 const items = [
   { label: "GitHub Profile", href: LINKS.github, Icon: Github },
   { label: "LinkedIn Profile", href: LINKS.linkedin, Icon: Linkedin },
-  { label: "LeetCode Profile", href: LINKS.leetcode, Icon: Code },
   { label: "GeeksforGeeks Profile", href: LINKS.gfg, Icon: Braces },
-  { label: "Download Resume PDF", href: LINKS.resume, Icon: FileText },
+  { label: "View Resume", href: LINKS.resume, Icon: FileText },
 ];
 
 export function ProfileLinks() {
