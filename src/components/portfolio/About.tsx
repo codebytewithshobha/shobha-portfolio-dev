@@ -12,11 +12,6 @@ import { Section } from "./Section";
 
 const cards = [
   {
-    Icon: GraduationCap,
-    title: "B.Tech CSE Background",
-    body: "Computer Science Engineering student with strong fundamentals in software engineering, OOP and system design basics.",
-  },
-  {
     Icon: Layers,
     title: "Full Stack Journey",
     body: "From first HTML page to production-grade apps — I own the flow from UI polish to API design and deployment.",

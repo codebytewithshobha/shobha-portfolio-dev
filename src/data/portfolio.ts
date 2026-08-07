@@ -108,116 +108,111 @@ export const PROJECTS = [
 export const EXPERIENCE = [
   {
     period: "2023 — Present",
-    role: "Computer Science Engineering Student & Software Developer",
-    org: "RVS College of Engineering and Technology, Jamshedpur",
+    role: "Computer Science Engineering Student",
+    org: "RVS College of Engineering & Technology, Jamshedpur",
     points: [
-      "B.Tech in Computer Science Engineering with hands-on work across software development, AI/ML, cloud deployment and modern web technologies.",
-      "Build real-world applications using full stack practices, scalable architectures and structured problem solving.",
-      "Practise Data Structures & Algorithms and competitive programming consistently to sharpen engineering fundamentals.",
+      "Pursuing B.Tech in Computer Science Engineering.",
+      "Building projects across full stack development, AI and cloud.",
+      "Strong focus on software engineering and problem solving.",
     ],
   },
   {
-    period: "2024 — Present",
-    role: "Full Stack Developer (Project Based)",
-    org: "MERN Stack & Modern Web Applications",
+    period: "Nov 2025 — Mar 2026",
+    role: "Full Stack Developer Intern",
+    org: "Bold & Wise Ventures",
     points: [
-      "Developed full stack applications with React, TypeScript, Tailwind CSS, Node.js, Express.js and MongoDB.",
-      "Built secure authentication, REST APIs, reusable UI components and responsive interfaces.",
-      "Created an AI-powered Course Notes Summarizer (React, Node.js, MongoDB, Gemini API) with summarization, quizzes, flashcards and tutor chat.",
+      "Built modern web applications using React, Node.js, Express and MongoDB.",
+      "Worked with AWS fundamentals, Docker, Kubernetes basics and CI/CD workflows.",
+      "Shipped AI integrations and REST APIs following scalable development practices.",
+      "Collaborated in an agile development environment.",
     ],
   },
   {
-    period: "2025 — Present",
-    role: "AI Application Developer",
-    org: "Generative AI & Intelligent Systems",
+    period: "Jan 2026 — Present",
+    role: "Core Member",
+    org: "HELIX Technical Club",
     points: [
-      "Integrated Google Gemini Generative AI APIs for automation, summarization, recommendations and intelligent user experiences.",
-      "Designed prompt workflows and structured AI outputs to improve reliability and application behaviour.",
-      "Developed Smart Trip Weaver, an AI travel planning platform with recommendations, weather insights, safety scoring and budget optimization.",
+      "Organize technical events, coding sessions and workshops.",
+      "Collaborate with the development team on technical initiatives.",
+      "Mentor juniors and contribute to club activities.",
     ],
   },
   {
-    period: "2025 — Present",
-    role: "Cloud Deployment & DevOps Engineering Practice",
-    org: "Cloud, Containers & Software Engineering",
-    points: [
-      "Deployed full stack applications on Vercel and Render.",
-      "Worked with Docker, AWS fundamentals, CI/CD workflows, Git and modern deployment practices.",
-      "Applied engineering principles across API development, debugging, version control and scalable architecture.",
-    ],
-  },
-  {
-    period: "2026",
+    period: "May 2026 — Jun 2026",
     role: "Industrial Training — AI & Machine Learning Using Python",
-    org: "Euphoria GenX × RVS College of Engineering and Technology",
+    org: "Euphoria GenX × RVS College of Engineering & Technology",
     points: [
-      "One-month industrial training covering AI, machine learning algorithms, Python programming, data handling and model development.",
-      "Implemented AI/ML solutions and worked through real-world machine learning workflows end to end.",
+      "Completed one-month industrial training in AI and machine learning.",
+      "Worked with Python, machine learning algorithms and AI fundamentals.",
+      "Built practical understanding of model development and real-world AI applications.",
+    ],
+  },
+  {
+    period: "2025 — Present",
+    role: "AI Application Development",
+    org: "Personal Projects",
+    points: [
+      "Built AI-powered applications using the Google Gemini API.",
+      "Developed summarization, quiz generation, AI tutor and recommendation systems.",
+      "Applied prompt engineering and structured AI workflows.",
+    ],
+  },
+  {
+    period: "2025 — Present",
+    role: "Cloud & DevOps Practice",
+    org: "Vercel, Render, Docker & AWS",
+    points: [
+      "Deploy applications using Vercel and Render.",
+      "Practise Docker, Git, CI/CD and AWS fundamentals.",
+      "Build production-ready full stack applications.",
     ],
   },
 ];
 
 export const LEADERSHIP = [
   {
-    title: "NSS President",
-    org: "R.V.S. College of Engineering & Technology, Jamshedpur",
+    title: "President",
+    org: "National Service Scheme (NSS), R.V.S. College of Engineering & Technology",
     period: "2024 — 25",
     points: [
-      "Served as NSS President leading the college volunteer wing.",
-      "Led student initiatives and community activities.",
-      "Coordinated volunteers across multiple drives.",
-      "Organized community events end to end.",
-      "Developed leadership, communication, teamwork and organizational skills.",
+      "Led student volunteering initiatives across the campus.",
+      "Organized community service activities end to end.",
+      "Managed teams and events, coordinating volunteers at scale.",
     ],
   },
   {
-    title: "Helix Core Member",
-    org: "Helix Technical Community",
-    period: "2023 — 24",
+    title: "Core Member",
+    org: "HELIX Technical Club",
+    period: "Jan 2026 — Present",
     points: [
-      "Worked as a core team member of the technical community.",
-      "Collaborated in technical and community activities.",
-      "Supported innovation initiatives across the campus.",
-      "Contributed to teamwork and project execution.",
+      "Organized technical workshops and coding events.",
+      "Promoted peer learning and technical collaboration.",
     ],
   },
 ];
 
 export const ACHIEVEMENTS = [
   {
-    icon: "Trophy",
-    title: "Hackathon Participation",
+    icon: "GraduationCap",
+    title: "JS'20 Scholarship",
     description:
-      "Built and pitched full working prototypes under tight hackathon timelines with cross-functional teams.",
-  },
-  {
-    icon: "Lightbulb",
-    title: "Innovation Challenges",
-    description:
-      "Participated in innovation challenges, shaping AI-first solutions for tourism and education problems.",
+      "Received the JS'20 Scholarship from Tata Steel covering my complete B.Tech education.",
   },
   {
     icon: "Code2",
-    title: "Coding Achievements",
+    title: "DSA Achievement",
     description:
-      "Consistent DSA practice on LeetCode and GeeksforGeeks, sharpening algorithmic problem solving.",
+      "Solved 300+ Data Structures & Algorithms problems on LeetCode.",
   },
   {
-    icon: "Rocket",
-    title: "Technical Accomplishments",
-    description:
-      "Shipped multiple full stack products with AI integrations, cloud deployment and CI/CD pipelines.",
+    icon: "Lightbulb",
+    title: "Innovation Challenge",
+    description: "Finalist — IIC Innovation Challenge / Hackathon 2026.",
   },
   {
-    icon: "Users",
-    title: "Community Leadership",
+    icon: "Trophy",
+    title: "Hackathons",
     description:
-      "Recognised as NSS President for driving student-led community impact and volunteer coordination.",
-  },
-  {
-    icon: "GraduationCap",
-    title: "Academic Focus",
-    description:
-      "B.Tech Computer Science Engineering with a strong focus on software engineering fundamentals.",
+      "Participated in 3+ national-level hackathons, collaborating on innovative software solutions.",
   },
 ];
