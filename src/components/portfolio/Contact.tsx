@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Code, Braces, ArrowUpRight } from "lucide-react";
+import { Mail, Github, Linkedin, Braces, ArrowUpRight } from "lucide-react";
 import { LINKS, PROFILE } from "@/data/portfolio";
 import { Section } from "./Section";
 import { GlowLink } from "./GlowLink";
@@ -7,7 +7,6 @@ import { GlowLink } from "./GlowLink";
 const socials = [
   { label: "LinkedIn", href: LINKS.linkedin, Icon: Linkedin },
   { label: "GitHub", href: LINKS.github, Icon: Github },
-  { label: "LeetCode", href: LINKS.leetcode, Icon: Code },
   { label: "GeeksforGeeks", href: LINKS.gfg, Icon: Braces },
 ];
 
