@@ -1,13 +1,12 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Code, FileText, Braces } from "lucide-react";
+import { Github, Linkedin, FileText, Braces } from "lucide-react";
 import { LINKS } from "@/data/portfolio";
 
 const items = [
   { label: "GitHub Profile", href: LINKS.github, Icon: Github },
   { label: "LinkedIn Profile", href: LINKS.linkedin, Icon: Linkedin },
-  { label: "LeetCode Profile", href: LINKS.leetcode, Icon: Code },
   { label: "GeeksforGeeks Profile", href: LINKS.gfg, Icon: Braces },
-  { label: "Download Resume PDF", href: LINKS.resume, Icon: FileText },
+  { label: "View Resume", href: LINKS.resume, Icon: FileText },
 ];
 
 export function ProfileLinks() {
@@ -18,17 +17,15 @@ export function ProfileLinks() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="mx-auto grid w-full max-w-6xl gap-3 rounded-3xl glass p-4 sm:grid-cols-2 lg:grid-cols-5"
+        className="mx-auto grid w-full max-w-6xl gap-3 rounded-3xl glass p-4 sm:grid-cols-2 lg:grid-cols-4"
       >
         {items.map(({ label, href, Icon }) => {
-          const isResume = href === LINKS.resume;
           return (
             <a
               key={label}
               href={href}
-              {...(isResume
-                ? { download: "" }
-                : { target: "_blank", rel: "noreferrer noopener" })}
+              target="_blank"
+              rel="noreferrer noopener"
               className="group flex items-center gap-3 rounded-2xl border border-border bg-surface-2/40 px-4 py-3 transition-all duration-300 hover:-translate-y-1 hover:border-primary/50"
             >
               <span className="grid size-9 shrink-0 place-items-center rounded-xl bg-secondary text-primary transition-colors duration-300 group-hover:bg-primary group-hover:text-primary-foreground">

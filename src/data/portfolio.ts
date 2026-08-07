@@ -14,11 +14,11 @@ export const PROFILE = {
 };
 
 export const LINKS = {
-  github: "https://github.com/",
-  linkedin: "https://www.linkedin.com/",
-  leetcode: "https://leetcode.com/",
-  gfg: "https://www.geeksforgeeks.org/user/",
-  resume: "/resume.pdf",
+  github: "https://github.com/codebytewithshobha",
+  linkedin: "https://www.linkedin.com/in/shobha-kumari-14684328a",
+  gfg: "https://www.geeksforgeeks.org/profile/kumari310gv63",
+  resume:
+    "https://drive.google.com/file/d/1eMKv-J6OAsX_dsVV6vc6n41XrU3XG3jf/view?usp=sharing",
 };
 
 export const NAV_ITEMS = [
