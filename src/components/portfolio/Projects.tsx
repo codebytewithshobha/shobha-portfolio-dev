@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Github, FileSearch } from "lucide-react";
-import { LINKS, PROJECTS } from "@/data/portfolio";
+import { ExternalLink, Github } from "lucide-react";
+import { PROJECTS } from "@/data/portfolio";
 import { Section } from "./Section";
 import { GlowLink } from "./GlowLink";
 
