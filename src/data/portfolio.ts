@@ -16,6 +16,7 @@ export const PROFILE = {
 export const LINKS = {
   github: "https://github.com/codebytewithshobha",
   linkedin: "https://www.linkedin.com/in/shobha-kumari-14684328a",
+  leetcode: "https://leetcode.com/u/shobhagorai/",
   gfg: "https://www.geeksforgeeks.org/profile/kumari310gv63",
   resume:
     "https://drive.google.com/file/d/1eMKv-J6OAsX_dsVV6vc6n41XrU3XG3jf/view?usp=sharing",
