@@ -73,7 +73,7 @@ export const PROJECTS = [
     image: projectTrip,
     alt: "Smart Trip Weaver AI travel planning dashboard interface",
     repo: "https://github.com/codebytewithshobha/smart-trip-weaver-68",
-    live: "",
+    live: "https://smart-trip-weaver-68-main.vercel.app/",
     tech: [
       "React",
       "TypeScript",
@@ -89,7 +89,7 @@ export const PROJECTS = [
     image: projectNotes,
     alt: "AI course notes summarizer app with flashcards and quiz panels",
     repo: "https://github.com/codebytewithshobha/notes_summarizer_web1",
-    live: "",
+    live: "https://ainotesummarizer.lovable.app/",
     tech: [
       "React",
       "TypeScript",
