@@ -1,12 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  GraduationCap,
-  Layers,
-  BrainCircuit,
-  Binary,
-  Heart,
-  Server,
-} from "lucide-react";
+import { Layers, BrainCircuit, Binary, Heart, Server } from "lucide-react";
 import { PROFILE } from "@/data/portfolio";
 import { Section } from "./Section";
 
