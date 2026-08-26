@@ -56,7 +56,7 @@ export function Projects() {
               </ul>
               <div className="mt-auto flex flex-wrap gap-3 pt-2">
                 {project.live ? (
-                  <GlowLink href={project.live} variant="primary">
+                  <GlowLink href={project.live} variant="primary" target="_blank">
                     <ExternalLink className="size-4" /> Live Demo
                   </GlowLink>
                 ) : null}
