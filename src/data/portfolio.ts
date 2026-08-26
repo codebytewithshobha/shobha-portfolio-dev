@@ -107,7 +107,7 @@ export const PROJECTS = [
     image: projectFarm,
     alt: "Fresh farm vegetables representing the Farm To Table platform",
     repo: "https://github.com/Ankitraj03711/FarmatoTable",
-    live: "",
+    live: "https://farmato-table-vzx5.vercel.app/",
     tech: ["Web Development Stack"],
   },
 ];
