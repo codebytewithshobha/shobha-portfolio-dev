@@ -89,7 +89,7 @@ export const PROJECTS = [
     image: projectNotes,
     alt: "AI course notes summarizer app with flashcards and quiz panels",
     repo: "https://github.com/codebytewithshobha/notes_summarizer_web1",
-    live: "",
+    live: "https://ainotesummarizer.lovable.app/",
     tech: [
       "React",
       "TypeScript",
