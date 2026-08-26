@@ -18,7 +18,7 @@ export function ProfileLinks() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="mx-auto grid w-full max-w-6xl gap-3 rounded-3xl glass p-4 sm:grid-cols-2 lg:grid-cols-4"
+        className="mx-auto grid w-full max-w-6xl gap-3 rounded-3xl glass p-4 sm:grid-cols-2 lg:grid-cols-5"
       >
         {items.map(({ label, href, Icon }) => {
           return (
