@@ -73,7 +73,7 @@ export const PROJECTS = [
     image: projectTrip,
     alt: "Smart Trip Weaver AI travel planning dashboard interface",
     repo: "https://github.com/codebytewithshobha/smart-trip-weaver-68",
-    live: "",
+    live: "https://smart-trip-weaver-68-main.vercel.app/",
     tech: [
       "React",
       "TypeScript",
