@@ -19,6 +19,7 @@ export function GlowLink({
   download,
   className = "",
   ariaLabel,
+  target,
 }: {
   href: string;
   children: ReactNode;
@@ -26,17 +27,20 @@ export function GlowLink({
   download?: boolean;
   className?: string;
   ariaLabel?: string;
+  target?: string;
 }) {
-  const external = href.startsWith("http");
+  const external = target === "_blank" || href.startsWith("http");
   return (
     <a
       href={href}
       aria-label={ariaLabel}
+      target={target || (external ? "_blank" : undefined)}
+      rel={external ? "noreferrer noopener" : undefined}
       {...(download ? { download: "" } : {})}
-      {...(external ? { target: "_blank", rel: "noreferrer noopener" } : {})}
       className={`${base} ${variants[variant]} ${className}`}
     >
       {children}
     </a>
   );
 }
+
