@@ -1,12 +1,5 @@
 import { motion } from "framer-motion";
-import {
-  GraduationCap,
-  Layers,
-  BrainCircuit,
-  Binary,
-  Heart,
-  Server,
-} from "lucide-react";
+import { Layers, BrainCircuit, Binary, Heart, Server } from "lucide-react";
 import { PROFILE } from "@/data/portfolio";
 import { Section } from "./Section";
 
@@ -29,7 +22,7 @@ const cards = [
   {
     Icon: Binary,
     title: "DSA Practice",
-    body: "Consistent Data Structures & Algorithms practice on LeetCode and GeeksforGeeks to keep problem solving sharp.",
+    body: "300+ Data Structures & Algorithms problems solved on LeetCode, with consistent practice on GeeksforGeeks.",
   },
   {
     Icon: Heart,

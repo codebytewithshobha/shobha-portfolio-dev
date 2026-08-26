@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { ExternalLink, Github, FileSearch } from "lucide-react";
-import { LINKS, PROJECTS } from "@/data/portfolio";
+import { ExternalLink, Github } from "lucide-react";
+import { PROJECTS } from "@/data/portfolio";
 import { Section } from "./Section";
 import { GlowLink } from "./GlowLink";
 
@@ -55,14 +55,13 @@ export function Projects() {
                 ))}
               </ul>
               <div className="mt-auto flex flex-wrap gap-3 pt-2">
-                <GlowLink href="#projects" variant="primary">
-                  <ExternalLink className="size-4" /> Live Demo
-                </GlowLink>
-                <GlowLink href={LINKS.github} variant="glass">
+                {project.live ? (
+                  <GlowLink href={project.live} variant="primary">
+                    <ExternalLink className="size-4" /> Live Demo
+                  </GlowLink>
+                ) : null}
+                <GlowLink href={project.repo} variant="glass">
                   <Github className="size-4" /> GitHub
-                </GlowLink>
-                <GlowLink href="#projects" variant="ghost">
-                  <FileSearch className="size-4" /> Case Study
                 </GlowLink>
               </div>
             </div>

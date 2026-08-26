@@ -79,6 +79,9 @@ export function Hero() {
             <GlowLink href={LINKS.github} variant="ghost">
               <Github className="size-4" /> GitHub
             </GlowLink>
+            <GlowLink href={LINKS.leetcode} variant="ghost">
+              <Code2 className="size-4" /> LeetCode
+            </GlowLink>
             <GlowLink href={`mailto:${PROFILE.email}`} variant="ghost">
               <Mail className="size-4" /> Email
             </GlowLink>

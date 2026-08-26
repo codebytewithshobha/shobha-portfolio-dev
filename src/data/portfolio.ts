@@ -16,6 +16,7 @@ export const PROFILE = {
 export const LINKS = {
   github: "https://github.com/codebytewithshobha",
   linkedin: "https://www.linkedin.com/in/shobha-kumari-14684328a",
+  leetcode: "https://leetcode.com/u/shobhagorai/",
   gfg: "https://www.geeksforgeeks.org/profile/kumari310gv63",
   resume:
     "https://drive.google.com/file/d/1eMKv-J6OAsX_dsVV6vc6n41XrU3XG3jf/view?usp=sharing",
@@ -71,6 +72,8 @@ export const PROJECTS = [
       "An AI-powered travel planning platform that automates trip planning using intelligent recommendations, weather insights, safety scoring, carbon footprint tracking, budget optimization, and smart itinerary generation.",
     image: projectTrip,
     alt: "Smart Trip Weaver AI travel planning dashboard interface",
+    repo: "https://github.com/codebytewithshobha/smart-trip-weaver-68",
+    live: "",
     tech: [
       "React",
       "TypeScript",
@@ -85,6 +88,8 @@ export const PROJECTS = [
       "An AI learning assistant that converts study materials into summaries, quizzes, flashcards, concepts, and interactive learning content.",
     image: projectNotes,
     alt: "AI course notes summarizer app with flashcards and quiz panels",
+    repo: "https://github.com/codebytewithshobha/notes_summarizer_web1",
+    live: "",
     tech: [
       "React",
       "TypeScript",
@@ -101,6 +106,8 @@ export const PROJECTS = [
       "A digital platform connecting agriculture and consumers through a farm-to-table experience.",
     image: projectFarm,
     alt: "Fresh farm vegetables representing the Farm To Table platform",
+    repo: "https://github.com/Ankitraj03711/FarmatoTable",
+    live: "https://shorting-visualizer.vercel.app/",
     tech: ["Web Development Stack"],
   },
 ];
