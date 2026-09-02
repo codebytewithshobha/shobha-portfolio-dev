@@ -114,13 +114,15 @@ export const PROJECTS = [
 
 export const EXPERIENCE = [
   {
-    period: "2023 — Present",
-    role: "Computer Science Engineering Student",
-    org: "RVS College of Engineering & Technology, Jamshedpur",
+    period: "Jun 2026 — Jul 2026",
+    role: "Full Stack AI Developer Intern",
+    org: "Aarna Tech Consultants Pvt. Ltd.",
     points: [
-      "Pursuing B.Tech in Computer Science Engineering.",
-      "Building projects across full stack development, AI and cloud.",
-      "Strong focus on software engineering and problem solving.",
+      "Developed an AI-powered notes platform using the MERN stack and Groq LLM.",
+      "Built JWT-based authentication and REST APIs for secure user access and document processing.",
+      "Implemented text extraction and chunking to process study materials into AI-generated summaries, flashcards and MCQs.",
+      "Integrated n8n automation for personalized revision reminders and weekly progress reports.",
+      "Worked with Docker, Render and Vercel for application deployment.",
     ],
   },
   {
@@ -129,49 +131,21 @@ export const EXPERIENCE = [
     org: "Bold & Wise Ventures",
     points: [
       "Built modern web applications using React, Node.js, Express and MongoDB.",
-      "Worked with AWS fundamentals, Docker, Kubernetes basics and CI/CD workflows.",
       "Shipped AI integrations and REST APIs following scalable development practices.",
+      "Worked with AWS fundamentals, Docker, Kubernetes basics and CI/CD workflows.",
       "Collaborated in an agile development environment.",
     ],
   },
   {
-    period: "Jan 2026 — Present",
-    role: "Core Member",
-    org: "HELIX Technical Club",
+    period: "Jun 2025 — Jul 2025",
+    role: "IT Intern",
+    org: "Tata Steel Utilities",
     points: [
-      "Organize technical events, coding sessions and workshops.",
-      "Collaborate with the development team on technical initiatives.",
-      "Mentor juniors and contribute to club activities.",
-    ],
-  },
-  {
-    period: "May 2026 — Jun 2026",
-    role: "Industrial Training — AI & Machine Learning Using Python",
-    org: "Euphoria GenX × RVS College of Engineering & Technology",
-    points: [
-      "Completed one-month industrial training in AI and machine learning.",
-      "Worked with Python, machine learning algorithms and AI fundamentals.",
-      "Built practical understanding of model development and real-world AI applications.",
-    ],
-  },
-  {
-    period: "2025 — Present",
-    role: "AI Application Development",
-    org: "Personal Projects",
-    points: [
-      "Built AI-powered applications using the Google Gemini API.",
-      "Developed summarization, quiz generation, AI tutor and recommendation systems.",
-      "Applied prompt engineering and structured AI workflows.",
-    ],
-  },
-  {
-    period: "2025 — Present",
-    role: "Cloud & DevOps Practice",
-    org: "Vercel, Render, Docker & AWS",
-    points: [
-      "Deploy applications using Vercel and Render.",
-      "Practise Docker, Git, CI/CD and AWS fundamentals.",
-      "Build production-ready full stack applications.",
+      "Contributed to internal MERN-based web applications for business operations.",
+      "Developed and integrated REST APIs for authentication and data management.",
+      "Worked on real-time monitoring and investigated performance and reliability issues.",
+      "Improved UI components and implemented responsive frontend designs.",
+      "Collaborated with the team to debug issues and improve application functionality.",
     ],
   },
 ];
