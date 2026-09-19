@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Users, Sparkles, Quote } from "lucide-react";
-import nssAsset from "@/assets/nss-president.jpeg.asset.json";
+import nssImage from "@/assets/nss-president.jpeg";
 import { LEADERSHIP } from "@/data/portfolio";
 import { Section } from "./Section";
 
@@ -27,7 +27,7 @@ export function BeyondTheCode() {
         >
           <figure className="relative overflow-hidden">
             <img
-              src={nssAsset.url}
+              src={nssImage}
               alt="Shobha Kumari announced as NSS President for the 2024-25 NSS team at R.V.S. College of Engineering & Technology"
               loading="lazy"
               width={1080}

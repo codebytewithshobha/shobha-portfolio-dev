@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Github, Linkedin, Mail, Code2, Braces } from "lucide-react";
-import heroAsset from "@/assets/shobha-hero.jpeg.asset.json";
+import heroImage from "@/assets/shobha-hero.jpeg";
 import { LINKS, PROFILE } from "@/data/portfolio";
 import { GlowLink } from "./GlowLink";
 
@@ -121,7 +121,7 @@ export function Hero() {
             className="group relative m-[6px] aspect-square overflow-hidden rounded-full glass p-2 ring-glow"
           >
             <img
-              src={heroAsset.url}
+              src={heroImage}
               alt="Shobha Kumari, Full Stack Developer, at a developer festival"
               width={960}
               height={960}
